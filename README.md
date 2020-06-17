@@ -2,4 +2,4 @@
 
 ## Methods
 
-...Filter & Find...
+### Filter & Find
