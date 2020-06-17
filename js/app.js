@@ -98,9 +98,6 @@ const findItem = data.find(function (item) {
   return item.id === 4;
 });
 
-var app = document.getElementById("#app");
-app.innerHTML = `${myData}`;
-
 console.log(story);
 
 console.log(myData);
