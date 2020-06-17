@@ -1,3 +1,4 @@
+"use strict";
 const data = [
   {
     user_id: 1,
@@ -5,7 +6,7 @@ const data = [
     headline: "Vanilla JavaScript ",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, fuga. Nulla, distinctio odit! Ducimus aut quos, iste provident quam necessitatibus magnam doloribus assumenda delectus ipsa accusantium veniam eos cum quaerat.",
-    posted: 15 - 04 - 2020,
+    posted: `15 - 04 - 2020`,
   },
   {
     user_id: 2,
@@ -13,7 +14,7 @@ const data = [
     headline: "Bem CSS",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, fuga. Nulla, distinctio odit! Ducimus aut quos, iste provident quam necessitatibus magnam doloribus assumenda delectus ipsa accusantium veniam eos cum quaerat.",
-    posted: 04 - 05 - 2020,
+    posted: `04 - 05 - 2020`,
   },
   {
     user_id: 2,
@@ -21,7 +22,7 @@ const data = [
     headline: "React.js",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, fuga. Nulla, distinctio odit! Ducimus aut quos, iste provident quam necessitatibus magnam doloribus assumenda delectus ipsa accusantium veniam eos cum quaerat.",
-    posted: 10 - 06 - 2020,
+    posted: `10/06/2020`,
   },
   {
     user_id: 2,
@@ -29,7 +30,7 @@ const data = [
     headline: "Vue.js",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, fuga. Nulla, distinctio odit! Ducimus aut quos, iste provident quam necessitatibus magnam doloribus assumenda delectus ipsa accusantium veniam eos cum quaerat.",
-    posted: 25 - 03 - 2020,
+    posted: `25/03/2020`,
   },
   {
     user_id: 4,
@@ -37,7 +38,7 @@ const data = [
     headline: "Node.js",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, fuga. Nulla, distinctio odit! Ducimus aut quos, iste provident quam necessitatibus magnam doloribus assumenda delectus ipsa accusantium veniam eos cum quaerat.",
-    posted: 23 - 02 - 2020,
+    posted: `23 - 02 - 2020`,
   },
   {
     user_id: 2,
@@ -45,7 +46,7 @@ const data = [
     headline: "HTML5",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, fuga. Nulla, distinctio odit! Ducimus aut quos, iste provident quam necessitatibus magnam doloribus assumenda delectus ipsa accusantium veniam eos cum quaerat.",
-    posted: 23 - 02 - 2020,
+    posted: `23 - 02 - 2020`,
   },
   {
     user_id: 1,
@@ -53,7 +54,7 @@ const data = [
     headline: "Front-end Developer",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, fuga. Nulla, distinctio odit! Ducimus aut quos, iste provident quam necessitatibus magnam doloribus assumenda delectus ipsa accusantium veniam eos cum quaerat.",
-    posted: 23 - 02 - 2020,
+    posted: `23 - 02 - 2020`,
   },
   {
     user_id: 4,
@@ -61,7 +62,7 @@ const data = [
     headline: "Typography",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, fuga. Nulla, distinctio odit! Ducimus aut quos, iste provident quam necessitatibus magnam doloribus assumenda delectus ipsa accusantium veniam eos cum quaerat.",
-    posted: 23 - 02 - 2020,
+    posted: `23 - 02 - 2020`,
   },
   {
     user_id: 2,
@@ -69,7 +70,7 @@ const data = [
     headline: "Micro conpoments",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, fuga. Nulla, distinctio odit! Ducimus aut quos, iste provident quam necessitatibus magnam doloribus assumenda delectus ipsa accusantium veniam eos cum quaerat.",
-    posted: 23 - 02 - 2020,
+    posted: `23 - 02 - 2020`,
   },
   {
     user_id: 1,
@@ -77,7 +78,7 @@ const data = [
     headline: "Mongodb",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, fuga. Nulla, distinctio odit! Ducimus aut quos, iste provident quam necessitatibus magnam doloribus assumenda delectus ipsa accusantium veniam eos cum quaerat.",
-    posted: 23 - 02 - 2020,
+    posted: `03 / 02 / 2020`,
   },
 ];
 
@@ -94,6 +95,7 @@ const myData = data.filter(function (elements) {
   return elements.user_id === 4;
 });
 
+// find method find - only one item in the array
 const findItem = data.find(function (item) {
   return item.id === 4;
 });
