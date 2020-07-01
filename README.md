@@ -1,5 +1,5 @@
 # Vanilia-JavaScript
 
-## Methods
+### Methods
 
-### Filter & Find
+Filter & Find
