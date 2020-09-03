@@ -1,5 +1,3 @@
 # Fiter JavaScript
 
-### Methods
-
-Filter & Find items with vanilia javaScript & es6
+ Simple filter find items with vanilia javaScript & es6
